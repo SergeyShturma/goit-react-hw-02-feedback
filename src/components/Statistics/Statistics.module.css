@@ -1,7 +1,36 @@
-.list_item {
+.list_good {
   padding: 0;
   margin: 10px 0;
   font-size: 24px;
+  border: 1px dashed green;
+}
+
+.list_neutral {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 24px;
+  border: 1px dashed rgba(167, 167, 20, 0.808);
+}
+
+.list_bad {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 24px;
+  border: 1px dashed red;
+}
+
+.list_total {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 24px;
+  border: 1px dashed blue;
+}
+
+.list_pos {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 24px;
+  border: 1px dashed rgb(128, 0, 105);
 }
 
 .list {
