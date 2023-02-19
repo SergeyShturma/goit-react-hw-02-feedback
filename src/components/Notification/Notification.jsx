@@ -6,11 +6,11 @@ export default function Notification({ message }) {
     <>
       <p className={css.message}>{message}</p>
       <iframe
+        title="Fun"
         className={css.gif}
         src="https://giphy.com/embed/3o7aTskHEUdgCQAXde"
         alt="gif"
-        allowFullScreen
-      />
+      ></iframe>
     </>
   );
 }
